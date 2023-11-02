@@ -17,7 +17,7 @@ _The hardware in this Machine is as follows_:
 - Mobo: HP 85E2 (Intel 300 Series Chipset)
 - Memory: 2x4GB DDR4 2400MHz (Samsung M378A5244CB0-CRC)
 - Drive: LITEON CA3-8D256-HP
-- Touchpad: Synaptics Precision Touchpad
+- Keyboard & Touchpad: PS2 Keyboard & I2C Synaptics Touchpad
 - Wifi & Bluetooth: Intel Wireless-AC 9560 160MHz
 - Audio: Realtek ALC285
 - Microphone: Intel SST
