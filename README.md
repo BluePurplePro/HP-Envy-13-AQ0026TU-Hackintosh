@@ -13,7 +13,7 @@ To deploy this project properly, please obtain the EFI folder from this reposito
 # Documentation
 _The hardware in this Machine is as follows_:
 - CPU: Intel Core i5-8265U (Whiskey Lake)
-- GPU: Intel HUD Graphcis 620
+- GPU: Intel UHD Graphcis 620
 - Mobo: HP 85E2 (Intel 300 Series Chipset)
 - Memory: 2x4GB DDR4 2400MHz (Samsung M378A5244CB0-CRC)
 - Drive: LITEON CA3-8D256-HP
