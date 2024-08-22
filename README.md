@@ -24,7 +24,6 @@ _The hardware in this Machine is as follows_:
 - Camera: HP Wide Vision HD Camera
 - SD Card Reader: BayHubTech Intergrated SD controller (SDA Compliant Host)
 - Fingerprint Sensor: Synaptics WBDI SGX
-- https://support.hp.com/us-en/document/c06358461
 
 # Result
 _Working_:
