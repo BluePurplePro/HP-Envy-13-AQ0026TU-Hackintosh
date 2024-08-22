@@ -10,7 +10,7 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 # Deployment
 To deploy this project properly, please obtain the EFI folder from this repository, edit the config.plist to generate new serial number, rom, UUID, etcetera, then save config.plist, and place the files onto the appropriate ESP EFI partition in order to boot using OpenCore bootloader and proceed with your installation of macOS.
 
-# Documentation
+# Hardware
 _The hardware in this Machine is as follows_:
 - CPU: Intel Core i5-8265U (Whiskey Lake)
 - GPU: Intel UHD Graphcis 620
@@ -26,7 +26,8 @@ _The hardware in this Machine is as follows_:
 - Fingerprint Sensor: Synaptics WBDI SGX
 - https://support.hp.com/us-en/document/c06358461
 
-_What's working_:
+# Result
+_Working_:
 - iGPU
 - Internal Sound
 - Wifi & Bluetooth
