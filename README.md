@@ -42,7 +42,7 @@ _The hardware in this Machine is as follows_:
 | PS2 Keyboard  | [VoodooPS2Controller.kext](https://github.com/acidanthera/VoodooPS2)  |
 | I2C Synaptic Touchpad | [VoodooI2C.kext and its satellite VoodooI2CHID.kext](https://github.com/VoodooI2C/VoodooI2C)  |
 | Intel 9560 Wifi | [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm)|
-| Intel 9560 Bluetooth | [IntelBluetoothFirmware.kext; IntelBTPatcher.kext; IntelBluetoothInjector.kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)|
+| Intel 9560 Bluetooth | [IntelBluetoothFirmware.kext; IntelBTPatcher.kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) & [BlueToolFixup.kext](https://github.com/acidanthera/BrcmPatchRAM)|
 | Realtek ALC285  | [AppleALC.kext](https://github.com/acidanthera/AppleALC) with layout-id 66  |
 | Camera  | [USBToolBox.kext](https://github.com/USBToolBox/kext) & [UTBMap.kext](https://github.com/USBToolBox/tool)  |
 
