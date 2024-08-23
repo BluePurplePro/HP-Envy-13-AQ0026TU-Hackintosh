@@ -5,7 +5,11 @@ This repository and project hosts the files necessary to boot macOS Ventura succ
 THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND RESEARCH PURPOSES, AND IS IN NO MAY MEANT TO PROMOTE CIRCUMVENTING OF ANYTHING THAT IS SOMEONE ELSE'S CORPORATE PRIVATE PROPERTY. THE INFORMATION LISTED HERE IS PURELY FOR EDUCATIONAL PURPOSES AND SHOULD YOU CHOOSE TO UTILIZE IT IN ANY WAY, I AM IN NO WAY RESPONSIBLE FOR ANY INJUNCTIONS/PROBLEMS THAT MAY OR MAY NOT ARISE AND/OR BE BROUGHT AGAINST ANOTHER FOR THEIR CHOOSING TO HAVE DONE SO.
 
 # Acknowledgements
-- https://dortania.github.io/OpenCore-Install-Guide/
+- Acidanthera for [OpenCore Bootloader](https://github.com/acidanthera/OpenCorePkg)
+- Dortania for [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide)
+- Corpnewt for [SSDT Time](https://github.com/corpnewt/SSDTTime)
+- USBToolbox for [USBToolbox](https://github.com/USBToolBox)
+- And many more awesome people in the hackintosh community
   
 # Deployment
 To deploy this project properly, please obtain the EFI folder from this repository, edit the config.plist to generate new serial number, rom, UUID, etcetera, then save config.plist, and place the files onto the appropriate ESP EFI partition in order to boot using OpenCore bootloader and proceed with your installation of macOS.
@@ -13,7 +17,7 @@ To deploy this project properly, please obtain the EFI folder from this reposito
 # Hardware
 _The hardware in this Machine is as follows_:
 - CPU: Intel Core i5-8265U (Whiskey Lake)
-- GPU: Intel UHD Graphcis 620
+- GPU: Intel UHD Graphics 620
 - Mobo: HP 85E2 (Intel 300 Series Chipset)
 - Memory: 2x4GB DDR4 2400MHz (Samsung M378A5244CB0-CRC)
 - Drive: LITEON CA3-8D256-HP
@@ -24,6 +28,23 @@ _The hardware in this Machine is as follows_:
 - Camera: HP Wide Vision HD Camera
 - SD Card Reader: BayHubTech Intergrated SD controller (SDA Compliant Host)
 - Fingerprint Sensor: Synaptics WBDI SGX
+
+# Drivers & Essential Kernel Extensions
+| Required Drivers | Essential Kexts |
+| ------------- | ------------- |
+| [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi) | [Lilu.kext](https://github.com/acidanthera/Lilu) |
+| [OpenRuntime.efi](https://github.com/acidanthera/OpenCorePkg) | [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC) |
+
+# Kernel Extensions corresponding to hardware
+| Hardware  | Kext(s) |
+| ------------- | ------------- |
+| Intel UHD Graphics 620  | [Whatevergreen.kext](https://github.com/acidanthera/WhateverGreen)  |
+| PS2 Keyboard  | [VoodooPS2Controller.kext](https://github.com/acidanthera/VoodooPS2)  |
+| I2C Synaptic Touchpad | [VoodooI2C.kext and its satellite VoodooI2CHID.kext](https://github.com/VoodooI2C/VoodooI2C)  |
+| Intel 9560 Wifi | [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm)|
+| Intel 9560 Bluetooth | [IntelBluetoothFirmware.kext; IntelBTPatcher.kext; IntelBluetoothInjector.kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)|
+| Realtek ALC285  | [AppleALC.kext](https://github.com/acidanthera/AppleALC)  |
+| Camera  | [USBToolBox.kext](https://github.com/USBToolBox/kext) & [UTBMap.kext](https://github.com/USBToolBox/tool)  |
 
 # Result
 _Working_:
