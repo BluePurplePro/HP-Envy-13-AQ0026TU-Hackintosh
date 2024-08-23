@@ -43,7 +43,7 @@ _The hardware in this Machine is as follows_:
 | I2C Synaptic Touchpad | [VoodooI2C.kext and its satellite VoodooI2CHID.kext](https://github.com/VoodooI2C/VoodooI2C)  |
 | Intel 9560 Wifi | [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm)|
 | Intel 9560 Bluetooth | [IntelBluetoothFirmware.kext; IntelBTPatcher.kext; IntelBluetoothInjector.kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)|
-| Realtek ALC285  | [AppleALC.kext](https://github.com/acidanthera/AppleALC)  |
+| Realtek ALC285  | [AppleALC.kext](https://github.com/acidanthera/AppleALC) with layout-id 66  |
 | Camera  | [USBToolBox.kext](https://github.com/USBToolBox/kext) & [UTBMap.kext](https://github.com/USBToolBox/tool)  |
 
 # Result
