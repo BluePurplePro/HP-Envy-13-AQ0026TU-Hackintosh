@@ -30,10 +30,15 @@ _The hardware in this Machine is as follows_:
 - Fingerprint Sensor: Synaptics WBDI SGX
 
 # Drivers & Essential Kernel Extensions
-| Required Drivers | Essential Kexts |
-| ------------- | ------------- |
-| [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi) | [Lilu.kext](https://github.com/acidanthera/Lilu) |
-| [OpenRuntime.efi](https://github.com/acidanthera/OpenCorePkg) | [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC) |
+| Required Drivers |
+| ------------- |
+| [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi) |
+| [OpenRuntime.efi](https://github.com/acidanthera/OpenCorePkg) |
+
+| Essential Kexts |
+| ------------- |
+| [Lilu.kext](https://github.com/acidanthera/Lilu) |
+| [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC) |
 
 # Kernel Extensions corresponding to hardware
 | Hardware  | Kext(s) |
