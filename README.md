@@ -50,6 +50,7 @@ _The hardware in this Machine is as follows_:
 | Intel 9560 Bluetooth | [IntelBluetoothFirmware.kext; IntelBTPatcher.kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) & [BlueToolFixup.kext](https://github.com/acidanthera/BrcmPatchRAM)|
 | Realtek ALC285  | [AppleALC.kext](https://github.com/acidanthera/AppleALC) with layout-id 66  |
 | Camera  | [USBToolBox.kext](https://github.com/USBToolBox/kext) & [UTBMap.kext](https://github.com/USBToolBox/tool)  |
+| Brightness Key (Fn + F2/F3)  | [BrightnessKeys.kext](https://github.com/acidanthera/BrightnessKeys)  |
 
 # Result
 _Working_:
@@ -59,7 +60,7 @@ _Working_:
 - Keyboard
 - Touchpad
 - USB ports
-- Brightness
+- Brightness Keys
 - Battery Status
 - Camera
 
@@ -79,4 +80,4 @@ _Not working_:
 - **Boot Options**
   - Network Boot ~> Disabled
   - Legacy Support ~> Disabled
-  - Secure Boot ~> Disabled 
+  - Secure Boot ~> Disabled
